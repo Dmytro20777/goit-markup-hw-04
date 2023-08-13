@@ -647,7 +647,6 @@ font-family: Roboto;
     list-style-type: none;
     padding-left: 0;
     
-
 }
 .item-customers{
     width: calc((100% - 120px) / 6);
@@ -807,7 +806,11 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color: var(--portfolio-button-bg);
     border: 1px solid var(--portfolio-button-color);
     border-radius: 4px;
-
+    
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
 .portfolio-button:hover {
@@ -912,6 +915,10 @@ position: absolute;
 .card-set-item-opportunities:hover .overlay {
     transform: translateY(0);
 }
+
+.card-set-item-opportunities:focus .overlay {
+    transform: translateY(0);
+}
 .overlay-text {
     color: var(--cloud, #F4F4FD);
     font-size: 16px;
@@ -994,9 +1001,16 @@ border-radius: 4px;
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn-icon:hover {
+.modal-btn:hover {
+fill: #ffffff;
+}
+.modal-btn:focus {
+fill: #ffffff;
+}
+
+/* .modal-btn-icon:hover {
     fill: #ffffff;
 }
 .modal-btn-icon:focus {
     fill: #ffffff;
-}
+} */
