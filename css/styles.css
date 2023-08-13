@@ -529,9 +529,13 @@ letter-spacing: 0.02em;
 color: var(--desc-list-text)
 }
 
+.socials {
+gap: 24px;
+}
+
 .team-card-socials {
     display: flex;
-    gap: 16px;
+    
     justify-content: center;
     align-items: center;
 
@@ -564,12 +568,26 @@ color: var(--desc-list-text)
     justify-content: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 .socials-link :hover {
-background-color: #31d0aa;
+    background-color: #31d0aa;
+}
+.socials-link :focus {
+ background-color: #31d0aa;
+}
+.socials:hover {
+background-color: #404bbf;
 }
 
-.socials-link :focus :focus {
-    background-color: #31d0aa;
+.socials:focus {
+    background-color: #404bbf;
+}
+
+.socials-link :hover {
+background-color
+}
+.socials :focus :focus {
+background-color
 }
 
 /* .hero-link-circle {
@@ -638,13 +656,13 @@ font-family: Roboto;
         color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.item-customers :hover  {
+.item-customers:hover  {
 border-color: #404bbf;
 color: #404bbf;
 }
 
 
-.item-customers :focus {
+.item-customers:focus {
     border-color: #404bbf;
     color: #404bbf;
    
@@ -665,12 +683,12 @@ color: #404bbf;
  
 }
 
-.link-customers :hover {
+.link-customers:hover {
     border-color: #404bbf;
     color: #404bbf;
 }
 
-.link-customers :focus {
+.link-customers:focus {
         border-color: #404bbf;
         color: #404bbf;
 }
@@ -957,11 +975,11 @@ border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-btn :hover {
+.modal-btn:hover {
     background-color: #404bbf;
     border: none;
 }
-.modal-btn :focus {
+.modal-btn:focus {
     background-color: #404bbf;
     border: none;
 }
