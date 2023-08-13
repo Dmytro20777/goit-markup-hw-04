@@ -532,7 +532,7 @@ letter-spacing: 0.02em;
 color: var(--desc-list-text)
 }
 
-.team-card-socials.socials {
+.socials {
 gap: 24px;
 }
 
@@ -913,11 +913,11 @@ position: absolute;
 }
 
 .card-set-item-opportunities:hover .overlay {
-    transform: translateY(0);
+    transform: translateY(0%);
 }
 
 .card-set-item-opportunities:focus .overlay {
-    transform: translateY(0);
+    transform: translateY(0%);
 }
 .overlay-text {
     color: var(--cloud, #F4F4FD);
