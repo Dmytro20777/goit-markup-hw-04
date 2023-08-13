@@ -526,7 +526,7 @@ color: var(--desc-list-text)
 
 .team-card-socials {
     display: flex;
-    gap: 16px;
+    gap: 24px;
     justify-content: center;
     align-items: center;
     width: 40px;
@@ -562,21 +562,19 @@ color: var(--desc-list-text)
 }
 .socials-link :hover, .socials-link :focus {
     background-color: #31d0aa;
-    background-color: #31d0aa;
 }
 
-.hero-link-circle {
+/* .hero-link-circle {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    /* gap: 24px; */
 
     width: 40px;
     height: 40px;
 
     background-color:  #4D5AE5;
     border-radius: 50%;
-}
+} */
 
 .socials-icon {
     fill: #F4F4FD;
@@ -586,7 +584,6 @@ color: var(--desc-list-text)
 .section-customers {
     padding-top: 120px;
     padding-bottom: 120px;
-    max-width: 1128px;
 }
 
 .box-customers {
@@ -647,7 +644,7 @@ fill: #404BBF;
  
 }
 
-.link-customers :hover {
+.link-customers :hover, .link-customers :focus  {
     border-color: #404bbf;
     color: #404bbf;
 }
@@ -669,9 +666,10 @@ fill: currentColor;
 }
 
 .footer-box {
+    margin-right: 120px
     display: flex;
     align-items: baseline;
-    margin-right: 120px
+    
 }
 
 .logo {
