@@ -535,7 +535,7 @@ gap: 24px;
 
 .team-card-socials {
     display: flex;
-    
+    gap: 16px;
     justify-content: center;
     align-items: center;
 
@@ -570,25 +570,27 @@ gap: 24px;
 }
 
 .socials-link :hover {
-    background-color: #31d0aa;
+background-color: #404bbf;
 }
 .socials-link :focus {
- background-color: #31d0aa;
+ background-color: #404bbf; 
 }
 .socials:hover {
-background-color: #404bbf;
+/* background-color: #404bbf; */
 }
 
 .socials:focus {
-    background-color: #404bbf;
+    /* background-color: #404bbf; */
 }
 
-.socials-link :hover {
-background-color
+.link-socials-footer :hover {
+background-color: #31d0aa;
 }
-.socials :focus :focus {
-background-color
+
+.link-socials-footer :focus {
+    background-color: #31d0aa;
 }
+
 
 /* .hero-link-circle {
     display: inline-flex;
