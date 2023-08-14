@@ -649,7 +649,7 @@ font-family: Roboto;
     justify-content: center;
         align-items: center;
     gap: 24px;
-    margin-right: 16px;
+    
     list-style-type: none;
     padding-left: 0;
     
@@ -916,13 +916,15 @@ position: absolute;
     padding-bottom: 164px;
 }
 
-.card-set-item-opportunities:hover .overlay {
+.list-row:hover .overlay {
     transform: translateY(0%);
 }
 
-.card-set-item-opportunities:focus .overlay {
+.list-row:focus .overlay {
     transform: translateY(0%);
 }
+
+
 .overlay-text {
     color: var(--cloud, #F4F4FD);
     font-size: 16px;
